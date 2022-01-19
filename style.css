@@ -35,7 +35,7 @@ table{
 td , th{
 padding: 20px 40px;
 text-align: center;
-
+color: #fff;
 }
 th{
 background-color: #007bff;
@@ -45,7 +45,8 @@ font-weight: 400;
 }
 tr{
 width: 100%;
-border: 1px solid black;
+border: 1px solid rgb(255, 255, 255);
+color: #fff;
 }
 
 
