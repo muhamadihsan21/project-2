@@ -1,0 +1,17 @@
+body {
+  background-image: url(dist/img/dark_wood.png)
+}
+.judul {
+  color: rgb(255, 145, 0);
+}
+img{
+  width:24.5%;
+}
+fieldset {
+  border: 2px solid #1201ff;  
+  padding: 2em ;
+}
+legend {
+  font-size: 25px;
+  padding-left: 10px;
+}

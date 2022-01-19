@@ -1,0 +1,59 @@
+body {
+  background-image: url(/dist/img/dark_wood.png)
+}
+.logo {
+  width: 70px;
+}
+.judul {
+  color: rgb(255, 145, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  position: relative;
+  display: inline-table;
+}
+
+li a {
+  display: block;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  padding: 8px;
+}
+
+.card {
+  border: 2px solid #1201ff;  
+  background-color: aliceblue;
+  width: 1000px;
+  margin-bottom: 40px;
+}
+
+.title-judul {
+  font-size: 30px;
+}
+.label{
+  margin-left: 3em;
+}
+
+.form-control{
+  margin-left: 3em;
+  width: 50%;
+}
+
+.button{
+  margin-left: 3em;
+  margin-bottom: 1em;
+}
+
+footer {
+  background-color: aliceblue;
+  padding: 2px;
+}
