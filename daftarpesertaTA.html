@@ -1,131 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SISTA | Form TA</title>
 
-    <title>SISTA | From login</title>
-
-  <!-- link icon -->
-  <link rel="shortcut icon" href="dist/img/STTNF.png" type="image/x-icon">
-    <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
-    <!-- link css bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style1.css" rel="stylesheet">
-
-  </head>
-  <body >
-
-    <div class="container-fluid p-3 bg-transparent">
-      <div class="row d-flex">
-        <div class="col-md-3 d-flex ">
-          <img class="logo justify-content-start mx-4" src="dist/img/STTNF.png" alt="logo">
-        </div>
-        <div class="col-md-9  ">
-          <h1 class="judul">
-            Sistem Informasi Tugas Akhir - SISTA 
-          </h1>
-        </div>
+   <!-- link style css -->
+   <link rel="stylesheet" href="style.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+</head>
+<body class="hold-transition layout-top-nav">
+   <!-- Title head -->
+   <div class="container-fluid p-3">
+    <div class="row d-flex">
+      <div class="col-md-3 d-flex ">
+        <img class="logo justify-content-start mx-4" src="dist/img/STTNF.png" alt="logo">
+      </div>
+      <div class="col-md-9  ">
+        <h1 class="judul">
+          Sistem Informasi Tugas Akhir - SISTA 
+        </h1>
       </div>
     </div>
-
-    <div class="mb-4">
-      <ul class="breadcrumb bg-transparent float-sm-right">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Jadwal</a></li>
-        <li class="breadcrumb-item"><a href="detailjadwal.html" >Detail Jadwal</a></li>
-        <li class="breadcrumb-item mr-3" ><a href="daftarpesertaseminar.html" class="text-white"> Daftar Peserta </a></li>
-      </ul>
-    </div>
-
-    <div class="p p-5 ml-5 text-white">
-      <p>Mahasiswa Seminar &nbsp; : Diego Armando (0102002)</p>
-      <p> Judul &nbsp;&nbsp;&nbsp; : Rancangan Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework </p>
-      <p>Waktu &nbsp; : Senin, 4 Januari 2021, 10:00</p>
-    </div>
-
-    <div class="container-fluid ">
-        <div class="row ">
-          <div class="card ml-5">
-            <p class="title-judul p-4 mb-3" ><b>Form Peserta Seminar</b></p>
-            <form role="form">
-              <div class="form-group">
-                <label class="label" for="exampleInputEmail1" >Email address</label> 
-                <input type="email" class="form-control" id="exampleInputEmail1" >
-                
-              </div>
-              <div class="form-group">
-                <label class="label" for="exampleInputPassword1">	Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" >
-              </div>
-              <div class="form-group">
-                <a class="label"> Prodi <br></a>
-                <input  class="form-control" type="text" list="nama prodi" name="Prodi"><br>
-                <datalist id="nama prodi">
-                  <option value="Sistem Informasi">
-                  <option value="Teknik Informatika">
-                </datalist>
-              </div>			
-              <form action="/action_page.php">
-              <div class="form-check-inline">
-                <a class="label">Program &nbsp;&nbsp; :			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                <label class="form-check-label" for="radio1" >
-                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>&nbsp;	D3
-                </label>
-                </div>
-                <div class="form-check-inline">
-                <label class="form-check-label" for="radio2" >
-                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">&nbsp;	S1 Reguler
-                </label>
-                </div>
-                <div class="form-check-inline">
-                <label class="form-check-label">
-                  <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option2">&nbsp;	S1 Fast Trackt 
-                </label>
-                </div>
-                <div class="form-check-inline">
-                <label class="form-check-label">
-                  <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option2">&nbsp;	S2
-                </label>
-                </div>
-                </form>
-              <br>	  
-              <div class="form-group row">
-                <div class="offset-1  ">
-                  <button name="submit" type="submit" class="btn btn-primary  ">Daftar</button>
-                </div>
-              </div>
-          </form>
-          </fieldset>
-        </div>
   </div>
-  
-  <footer class="main-footer bg-light mt-5">
-    <div class="float-right ">
-      <strong class="">Copyright &copy; NGODING-NGAB</strong> 
+  <!-- end Title -->
+
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler bg-primary " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#jadwal">Jadwal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="daftarpesertaseminar.html">Daftar Seminar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Berita</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">About</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <b>SISTA-STTNF</b> 
-  </footer>
-
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
-</html>
-
-
- <p><br>
-                Pendaftaran Seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari Pembimbing TA
-              </p>
+  </nav>
+  <!-- end navbar -->
+    <p class="text-white mt-2 ml-5">
+      Pendaftaran Seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari Pembimbing TA
+    </p>
               <!-- Main content -->
     <div class="content">
-      <fieldset class="scheduler-border">
-        <legend class="scheduler-border">From Daftar Seminar TA</legend>
+      <fieldset class="scheduler-border p-3 ">
+      <legend class="scheduler-border  text-warning ml-4 mt-2">From Daftar Seminar TA</legend>
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6">
@@ -243,3 +194,80 @@
       </div>
     </div>
   </fieldset>
+        <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+    </div>
+      <!-- /.card-header -->
+        <div class="card-body pt-0">
+          <!--The calendar -->
+            <div id="calendar" style="width: 100%"></div>
+            </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </section>
+          <!-- right col -->
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer bg-light mt-5">
+    <div class="float-right ">
+      <strong class="">Copyright &copy; NGODING-NGAB</strong> 
+    </div>
+    <b>SISTA-STTNF</b> 
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+</body>
+</html>

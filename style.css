@@ -27,15 +27,13 @@ span{
 }
 
 table{
-  margin-right: 10%;
-  margin-left:10%;
   border: 1px solid black;
 }
 
 td , th{
-padding: 20px 40px;
+padding: 10px 20px;
 text-align: center;
-color: #fff;
+color: rgb(46, 24, 250);
 }
 th{
 background-color: #007bff;
@@ -44,9 +42,8 @@ font-family: 'Open Sans',Sans-serif;
 font-weight: 400;
 }
 tr{
-width: 100%;
-border: 1px solid rgb(255, 255, 255);
-color: #fff;
+border: 1px solid rgb(0, 0, 0);
+color: rgb(0, 0, 0);
 }
 
 
