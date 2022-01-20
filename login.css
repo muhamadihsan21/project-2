@@ -1,0 +1,37 @@
+body {
+  background-image: url(dist/img/dark_wood.png)
+}
+.container-judul {
+  padding: 1em;
+}
+.container-judul :nth-child(1) {
+  display: flex;
+}
+.container-judul :nth-child(2) {
+  display: flex;
+}
+.logo {
+  width: 25%;
+  justify-content: center;
+  margin: 0 2em 0 2em;
+}
+.judul {
+  color: rgb(255, 145, 0);
+}
+
+.container-navbar {
+  margin: 0 3em 3em 0;
+}
+.container-card {
+  display: flex;
+  justify-content: center;
+}
+.card-body {
+  margin: 0 2em 1em 2em;
+}
+.input-group {
+  margin-bottom: 1em;
+}
+.sign-in {
+  margin-bottom: 2em;
+}

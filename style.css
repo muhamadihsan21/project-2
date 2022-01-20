@@ -1,33 +1,91 @@
 body {
   background-image: url(dist/img/dark_wood.png)
 }
+.container-header {
+  padding: 1em;
+}
+.row-container-header {
+  display: flex;
+}
+.container-img {
+  display: flex;
+}
+
 .logo {
-  width: 70px;
+  width: 25%;
+  justify-content: center;
+  margin: 0 2em 0 2em;
 }
 .judul {
   color: rgb(255, 145, 0);
+}
+.navbar-toggler {
+  background-color: #007bff;
 }
 .navbar_container{
   color: blue;
 }
 .title_alur{
   color: rgb(255, 145, 0);
+  margin: 2em 3em 0 2em;
 }
+.alur {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin: 2em 1em 2em 1em;
+  border: 1px solid black;
+}
+.card-header {
+  background-color: #007bff;
+  color: #fafafa;
+  border: 1px solid black;
 
+}
 .card-title {
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom:10%;
+}
+.btn1,.btn2, .btn3, .btn4 {
+  background-color: #007bff;
+  padding: 0.5em;
+  color: #fafafa;
+  border-radius: 5%;
+
+}
+.btn1 {
+  margin: 3em 2em 0 2em ;
+}
+.btn2 {
+  margin: 5em 0 0 2em;
+}
+.btn3 {
+  margin: 3em 0 0 2em;
+}
+.btn4 {
+  margin: 3em 3em 0 1em;
+}
+.icon {
+  margin: 0 0 0 1em;
 }
 span{
   font-size: small;
 }
 .title_jadwal {
   color: rgb(255, 145, 0);
+  margin: 3em 2em 2em 2em;
 }
 
+.container-table {
+  display: flex;
+  justify-content: center;
+}
 table{
   border: 1px solid black;
+  margin-bottom: 10em;
 }
 
 td , th{
