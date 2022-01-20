@@ -172,19 +172,19 @@
                           <div class="form-group row">
                             <label for="number" class="col-4 col-form-label">NIM</label> 
                             <div class="col-8">
-                              <input id="number" name="number" type="text" class="form-control">
+                              <input id="number" name="number" type="text" class="form-control" required>
                             </div>
                           </div>
                           <div class="form-group row">
                             <label for="text" class="col-4 col-form-label">Nama</label> 
                             <div class="col-8">
-                              <input id="text" name="text" type="text" class="form-control">
+                              <input id="text" name="text" type="text" class="form-control" required>
                             </div>
                           </div>
                           <div class="form-group row">
                             <label for="text" class="col-4 col-form-label">Prodi</label> 
                             <div class="col-8">
-                              <select id="text" name="text" class="custom-select">
+                              <select id="text" name="text" class="custom-select" required>
                                 <option value="Sistem Informasi">Sistem Informasi</option>
                                 <option value="Teknik Informatika">Teknik Informatika</option>
                               </select>
@@ -194,7 +194,7 @@
                             <label for="number" class="col-4 col-form-label">Tanggal</label> 
                             <div class="col-8">
                               <div class="input-group">
-                                <input id="number" name="number" placeholder="" type="text" class="form-control"> 
+                                <input id="number" name="number" placeholder="" type="text" class="form-control" required> 
                                 <div class="input-group-append">
                                   <div class="input-group-text">
                                     <i class="fa fa-calendar"></i>
@@ -206,24 +206,19 @@
                           <div class="form-group row">
                             <label for="number" class="col-4 col-form-label">Jam  Seminar</label> 
                             <div class="col-8">
-                              <input id="number" name="number" type="text" class="form-control">
+                              <input id="number" name="number" type="text" class="form-control" required>
                             </div>
                           </div>
                           <div class="form-group row">
                             <label for="text" class="col-4 col-form-label">Ruangan</label> 
                             <div class="col-8">
-                              <input id="text" name="text" type="text" class="form-control">
+                              <input id="text" name="text" type="text" class="form-control" required>
                             </div>
                           </div> 
                         </form>
                       </div>
                     </div>
-                    <div class="d-flex">
-                      <div class="container-btn">
-                        <button name="submit" type="submit" class="btn btn-primary mx-3">Update</button>
-                        <button name="submit" type="submit" class="btn btn-primary">Delete</button>
-                      </div>
-                    </div>
+             
                     
                     <!-- /.card -->
                   </div>
@@ -277,6 +272,12 @@
                         </form>
                       </div>
                     </div>
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <div class="container-btn">
+                    <button name="submit" type="submit" class="btn btn-primary mx-3">Update</button>
+                    <button name="submit" type="submit" class="btn btn-primary">Delete</button>
                   </div>
                 </div>
               </div>
